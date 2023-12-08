@@ -364,7 +364,7 @@ export const XSUSHI_ADDRESS = {
   [ChainId.POLYGON]: '0x6811079e3c63ed96eb005384d7e7ec8810e3d521',
 } as const
 
-export const AVAX_ADDRESS = {
+export const WAVAX_ADDRESS = {
   [ChainId.POLYGON]: '0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b',
 } as const
 
