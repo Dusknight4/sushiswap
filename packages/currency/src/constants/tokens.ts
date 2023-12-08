@@ -9,6 +9,7 @@ import {
   ANKR_ADDRESS,
   APE_ADDRESS,
   ARB_ADDRESS,
+  AVAX_ADDRESS,
   axlUSDC_ADDRESS,
   BCT_ADDRESS,
   BUSD_ADDRESS,
@@ -23,6 +24,7 @@ import {
   GNO_ADDRESS,
   JPY_ADDRESS,
   KLIMA_ADDRESS,
+  KNCv2_ADDRESS,
   KP3R_ADDRESS,
   LDO_ADDRESS,
   LINK_ADDRESS,
@@ -83,6 +85,24 @@ export const YFI = addressMapToTokenMap(
   },
   YFI_ADDRESS
 ) as Record<keyof typeof YFI_ADDRESS, Token>
+
+export const AVAX = addressMapToTokenMap(
+  {
+    decimals: 18,
+    symbol: 'AVAX',
+    name: 'Avalanche Token',
+  },
+  AVAX_ADDRESS
+) as Record<keyof typeof AVAX_ADDRESS, Token>
+
+export const KNCv2 = addressMapToTokenMap(
+  {
+    decimals: 18,
+    symbol: 'KNCv2',
+    name: 'Kyber Network Crystal V2',
+  },
+  KNCv2_ADDRESS
+) as Record<keyof typeof KNCv2_ADDRESS, Token>
 
 export const ENJ = addressMapToTokenMap(
   {
