@@ -9,7 +9,6 @@ import {
   ANKR_ADDRESS,
   APE_ADDRESS,
   ARB_ADDRESS,
-  AVAX_ADDRESS,
   axlUSDC_ADDRESS,
   BCT_ADDRESS,
   BUSD_ADDRESS,
@@ -50,6 +49,7 @@ import {
   UNI_ADDRESS,
   USDC_ADDRESS,
   USDT_ADDRESS,
+  WAVAX,
   WBTC_ADDRESS,
   WETH9_ADDRESS,
   WNATIVE_ADDRESS,
@@ -86,14 +86,14 @@ export const YFI = addressMapToTokenMap(
   YFI_ADDRESS
 ) as Record<keyof typeof YFI_ADDRESS, Token>
 
-export const AVAX = addressMapToTokenMap(
+export const WAVAX = addressMapToTokenMap(
   {
     decimals: 18,
-    symbol: 'AVAX',
-    name: 'Avalanche Token',
+    symbol: 'WAVAX',
+    name: 'Wrapped Avalanche Token',
   },
-  AVAX_ADDRESS
-) as Record<keyof typeof AVAX_ADDRESS, Token>
+  WAVAX_ADDRESS
+) as Record<keyof typeof WAVAX_ADDRESS, Token>
 
 export const KNCv2 = addressMapToTokenMap(
   {
