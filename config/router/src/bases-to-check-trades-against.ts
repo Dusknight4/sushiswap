@@ -49,7 +49,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: {
     DAI[ChainId.POLYGON],
     MIM[ChainId.POLYGON],
     FRAX[ChainId.POLYGON],
-    QUICK[ChainId.POLYGON],
+    SUSHI[ChainId.POLYGON],
     new Token({
       chainId: ChainId.POLYGON,
       address: '0x2F800Db0fdb5223b3C3f354886d907A671414A7F',
