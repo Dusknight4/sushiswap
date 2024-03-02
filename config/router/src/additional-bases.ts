@@ -18,6 +18,7 @@ import {
   GALA,
   GNS,
   GRT,
+  JUGNI,
   KLIMA,
   KLIMA_ADDRESS,
   KP3R,
@@ -114,6 +115,7 @@ export const ADDITIONAL_BASES: {
       XSUSHI[ChainId.POLYGON],
       KNCv2[ChainId.POLYGON],
       WAVAX[ChainId.POLYGON],
+      JUGNI[ChainId.POLYGON],
       // ENJ[ChainId.POLYGON], // could not find on polygon
     ],
   },
